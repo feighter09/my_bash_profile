@@ -16,12 +16,14 @@ alias grm="git rm"
 alias gp="git pull"
 alias gpp="git push"
 alias gph="git push; git push heroku master"
+alias grao="git remote add origin"
 alias grah="git remote add heroku"
 alias gu="git commit -am 'pushing update';git pull;git push;git push heroku master"
 alias fisi="git commit -am '\"Fuck it, Ship it\" button pressed.';gp;gpp;gph"
 alias gst="git stash"
 alias gsta="git stash apply"
 alias gb="git branch"
+alias gbsu="git branch --set-upstream-to=origin/master master"
 alias gch="git checkout"
 alias gl="git log --all --graph --decorate --oneline --abbrev-commit"
 
@@ -30,11 +32,13 @@ alias django="py manage.py runserver"
 alias dj="django"
 alias mysql_start="/usr/local/bin/mysql.server start"
 
+alias matlab="matlab -nosplash -nodesktop"
+
 alias umich="ssh afeight@login.engin.umich.edu"
 
 export PATH=:/usr/local/bin/:/usr/local/sbin:~/bin/:$PATH:/Applications/MATLAB_R2012b.app/bin
 
-export PS1="austin:\W$ "
+export PS1="hephaestus-air:\W$ "
 
 export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
 
